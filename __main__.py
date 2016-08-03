@@ -1,7 +1,7 @@
 import click, sys, os, datetime, hashlib
 
 # NOTE: change this to your html location
-html = "~/Desktop/Programming Projects/cym/cym.html"
+html = "~/Desktop/Programming Projects/cym/index.html"
 
 
 # HANDLING FILE
