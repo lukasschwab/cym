@@ -21,10 +21,14 @@ Right now it's very WIP.<br><br>
 
 ## To do
 
++ Add nonchalant link from blog
+
 + Some description text on the page itself
 
 + Store list of past videos––can reuse a tir table construction structure, but just with links and dates.
 
 + Fix fullscreen mode
+
++ Taylor says the low is bad on mobile; check this and fix any apparent issues.
 
 + RSS (via tir work? Can use same plugin with same list generator?)
