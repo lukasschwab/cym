@@ -1,4 +1,4 @@
-import click, sys, os, datetime, hashlib
+import click, sys, os
 
 # NOTE: change this to your html location
 html = "~/Desktop/Programming Projects/cym/index.html"
