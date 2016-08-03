@@ -1,6 +1,6 @@
 # cym
 <p align="center">
-cym is like [tir](https://github.com/lukasschwab/tir), but for what you're listening to.<br>
+cym is like <a href="https://github.com/lukasschwab/tir">tir</a>, but for what you're listening to.<br>
 Right now it's very WIP.<br><br>
 <img src="http://lukasschwab.github.io/img/cym.gif">
 </p>
