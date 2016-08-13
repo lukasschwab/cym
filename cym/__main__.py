@@ -24,7 +24,7 @@ def getFrame(url):
     url = url.replace('watch?v=', 'embed/')
     line = u'\t\t<iframe width="560" height="315" src="'
     line += url
-    line += u'?autoplay=1" frameborder="0" allowfullscreen></iframe>\n'
+    line += u'?autoplay=1" frameborder="0"></iframe>\n'
     return line
 
 def isIframeLine(line):
@@ -36,9 +36,7 @@ def isIframeLine(line):
 
 # INTERFACE
 
-def update():
-    # Get new YouTube URL
-    url = click.prompt("URL")
+def update(url):
     # Render HTML
     htmlString = getFrame(url)
     # Add to the contents list
@@ -51,8 +49,11 @@ def update():
     sys.exit(0)
 
 @click.command()
-def main():
-    update()
+@click.argument('url', required=False)
+def main(url):
+    if not url:
+        url = click.prompt("URL")
+    update(url)
 
 if __name__ == '__main__':
     main()

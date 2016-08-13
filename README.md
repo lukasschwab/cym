@@ -29,6 +29,6 @@ Right now it's very WIP.<br><br>
 
 + Fix fullscreen mode
 
-+ Taylor says the low is bad on mobile; check this and fix any apparent issues.
++ Taylor says the layout is bad on mobile; check this and fix any apparent issues.
 
 + RSS (via tir work? Can use same plugin with same list generator?)
