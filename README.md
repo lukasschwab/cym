@@ -27,8 +27,8 @@ Right now it's very WIP.<br><br>
 
 + Store list of past videos––can reuse a tir table construction structure, but just with links and dates.
 
-+ Fix fullscreen mode
-
 + Taylor says the layout is bad on mobile; check this and fix any apparent issues.
 
 + RSS (via tir work? Can use same plugin with same list generator?)
+
++ Check if playback is allowed before pushing.
