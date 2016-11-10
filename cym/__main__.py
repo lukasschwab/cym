@@ -24,7 +24,7 @@ def getFrame(url):
     url = url.replace('watch?v=', 'embed/')
     line = u'\t\t<iframe width="560" height="315" src="'
     line += url
-    line += u'?autoplay=1" frameborder="0"></iframe>\n'
+    line += u'?autoplay=1&iv_load_policy=3" frameborder="0"></iframe>\n'
     return line
 
 def isIframeLine(line):
