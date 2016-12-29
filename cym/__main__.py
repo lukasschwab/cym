@@ -1,7 +1,7 @@
 import click, sys, os
 
 # NOTE: change this to your html location
-html = "~/Desktop/Programming Projects/cym/index.html"
+html = "~/Desktop/programming/cym/index.html"
 
 
 # HANDLING FILE

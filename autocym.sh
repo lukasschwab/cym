@@ -1,5 +1,5 @@
 #!/bin/sh
-cd ~/Desktop/Programming\ Projects/cym/
+cd ~/Desktop/programming/cym/
 # If there's a change to index.html
 if ! git diff-index --quiet HEAD -- index.html; then
     # Push any changes in index.html to github
