@@ -1,4 +1,4 @@
-import click, sys, os
+import click, sys, os, webbrowser
 
 # NOTE: change this to your html location
 html = "~/Desktop/programming/cym/index.html"
@@ -53,6 +53,9 @@ def update(url):
 def main(url):
     if not url:
         url = click.prompt("URL")
+    if "youtube" not in url:
+        webbrowser.open("file:///Users/lukas/Desktop/programming/cym/index.html", new=2)
+        return
     update(url)
 
 if __name__ == '__main__':
