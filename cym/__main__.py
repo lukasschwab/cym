@@ -1,8 +1,7 @@
 import click, sys, os, webbrowser
 
 # NOTE: change this to your html location
-html = "~/Desktop/programming/cym/index.html"
-
+html = "~/Programming/cym/index.html"
 
 # HANDLING FILE
 
